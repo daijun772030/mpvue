@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/course/main",
+    "pages/loginAndRegist/loginType/main",
+    "pages/loginAndRegist/phoneLogin/main",
+    "pages/mine/main",
+    "pages/storeDetails/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/home/main",
+      "iconPath": "static/tabs/home_nomarl.png",
+      "selectedIconPath": "static/tabs/home_selected.png"
+    }, {
+      "text": "团课",
+      "pagePath": "pages/course/main",
+      "iconPath": "static/tabs/course_nomarl.png",
+      "selectedIconPath": "static/tabs/course_selected.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/tabs/mine_nomarl.png",
+      "selectedIconPath": "static/tabs/mine_selected.png"
+    }],
+    "position": "bottom"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于小程序城市定位"
+    }
+  }
+}
